@@ -26,6 +26,8 @@ class Event(models.Model):
     Description=models.CharField(max_length=1000, null=True)
     Attendee=models.IntegerField(blank=True)
     eventImage=models.ImageField(default="FOSSCUlogo.png", blank=True, null=True)
+    user=models.ForeignKey(User, on_delete=models.CASCADE)
+    core=models.ForeignKey(Core, on_delete=models.CASCADE)
     
     
     def __str__(self) -> str:
