@@ -56,7 +56,7 @@ ROOT_URLCONF = "fosscuEvents.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / 'templates'],
+        "DIRS": [BASE_DIR / 'Aron/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
