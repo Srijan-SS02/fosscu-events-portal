@@ -24,4 +24,3 @@ urlpatterns = [
 ]
 
 
-urlpatterns += staticmethod(settings.MEDIA_URL, documetn_root= settings.MEDIA_ROOT)
